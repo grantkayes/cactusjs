@@ -1,10 +1,11 @@
 {
-  "name": "cactusjs",
-  "version": "1.0.0",
+  "name": "@grantkayes/cactusjs",
+  "version": "1.0.2",
   "description": "A components library for loading pages",
   "author": "grantkayes",
   "license": "MIT",
   "repository": "grantkayes/cactusjs",
+  "homepage": "http://www.cactusjs.xyz",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -58,7 +59,5 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "@rollup/plugin-image": "^2.0.4"
-  }
+  "dependencies": {}
 }

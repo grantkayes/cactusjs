@@ -1,22 +1,21 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import logo from './cactusjs.png';
 
 import styles from './styles.css'
 
 export default class ExampleComponent extends Component {
   static propTypes = {
-    text: PropTypes.string
+    image: PropTypes.string
   }
 
   render() {
     const {
-      text
+      image
     } = this.props
 
     return (
       <div className={styles.test}>
-        { logo }
+        <img src={image}/>
       </div>
     )
   }
