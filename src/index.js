@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import logo from './cactusjs.png';
 
 import styles from './styles.css'
 
@@ -15,7 +16,7 @@ export default class ExampleComponent extends Component {
 
     return (
       <div className={styles.test}>
-        Example Component: {text}
+        { logo }
       </div>
     )
   }
