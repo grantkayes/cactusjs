@@ -7,7 +7,8 @@
 ## Install
 
 ```bash
-npm install --save cactusjs
+npm install --save @grantkayes/cactusjs
+yarn add @grantkayes/cactusjs
 ```
 
 ## Usage
